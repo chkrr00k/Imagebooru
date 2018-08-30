@@ -1,0 +1,209 @@
+body{
+	font-family: sans-serif;
+	font-size: 15;
+}
+
+.imageM{
+	width: 300px;
+	height: 210px
+}
+
+#image{
+	max-height: 500px;
+	float: left;
+}
+
+.container{
+	float: left;
+	border: 1px solid;
+	margin: 2px;
+}
+
+.imageContainer{
+	border: 5px solid;
+	float: left;
+}
+
+.description{
+	clear: left;
+	margin-bottom: 10px;
+}
+
+.tagContainer{
+	float: left;
+	padding: 5px;
+}
+
+.tag{
+	border: 3px solid;
+	border-color: gray;
+	padding: 2px;
+	float: left;
+	margin-right: 3px;
+	margin-left: 3px;
+	background-color: c5c5c5;
+}
+
+.info{
+	border: 1px solid;
+	background-color: cyan;
+	height: 20px;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+#error{
+	display: none;
+	background-color: red;
+	padding: 5px;
+	color: white;
+	font-family: sans-serif;
+	margin: 3px 10 0 10;
+	text-align: center;
+}
+
+#query{
+	margin-left: 5px;
+	margin-right: 5px;
+	border: none;
+	background-color: BEBEBE;
+	padding: 4px;
+}
+
+.topBatButton{
+	border: none;
+	padding: 3px;
+	margin-right: 6px;
+	background-color: BEBEBE;
+	margin-left: 5px;
+}
+
+.topBatButton:hover{
+	background-color: lightgray;
+}
+
+.page{
+	margin-top: 40px
+}
+
+.topBar{
+	background-color: grey;
+	padding: 5px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.bNContainer{
+	clear: left;
+	margin-top: 5px;
+}
+
+.number{
+	float: left;
+	border: solid 1px;
+	padding: 5px 10px;
+	margin: 10px 5px;
+}
+
+.inputBox{
+	border: none;
+	background-color: c4c4c4;
+	padding: 4px;
+	margin: 2px;
+}
+
+textarea.inputBox{
+	width: 300px;
+	font-family: sans-serif;
+	font-size: 12
+}
+
+#file_name{
+	width: 300px;
+	
+}
+
+#tagName{
+	width: 300px;
+}
+
+#fileSubmit{
+	border: none;
+	padding: 4px;
+	margin: 2px;
+}
+
+.fileText{
+	padding: 2px;
+	text-align: justify;
+	margin-top: 5px;
+	width: 300px
+}
+
+#tagInput{
+	display: none;
+	border: none;
+	background-color: whitesmoke;
+	padding: 2px;
+}
+
+#newTag{
+	text-align: center;
+}
+
+#uploader{
+	border: solid 2px;
+	padding: 10px 30px;
+	margin: 5px;
+	float: left;
+}
+
+#tagDefineCont{
+	text-align: justify;
+	width: 300px;
+	margin-top: 10px;
+}
+
+#tagDefine{
+	width: 300px;
+	border: solid 1px;
+	border-color: red;
+	margin: 10px 0px;
+}
+
+#tagDefineSend{
+	border: solid 1px;
+	border-color: red;
+	background-color: white;
+	padding: 5px;
+	margin: 2px
+}
+
+.invalid,.noTag{
+	margin: 60px;
+	border: inset 2px;
+	float: left;
+	padding: 10px 60px;
+	line-height: 2;
+}
+.banner{
+	font-size: 150%
+}
+
+tr:hover{
+	background-color: lightgray;
+}
+.tagName:hover{
+	background-color: grey;
+}
+.tagTab{
+	color: darkviolet;
+}
+.tagTab:hover{
+	color: white;
+}
